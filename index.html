@@ -23,6 +23,10 @@
       </div>
     </div>
     <script>
+      window.tonConnect = new TON_CONNECT_UI.TonConnectUI({
+        manifestUrl: "https://raw.githubusercontent.com/ton-community/tutorials/main/03-client/test/public/tonconnect-manifest.json"
+        });
+
       var canvas = document.querySelector("#unity-canvas");
 
       // Shows a temporary message banner/ribbon for a few seconds, or
